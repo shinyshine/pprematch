@@ -1,0 +1,29 @@
+{
+    "compilerOptions": {
+      "declaration": true,
+      "lib": ["es2016", "DOM"],
+      "forceConsistentCasingInFileNames": true,
+      "module": "commonjs",
+      "moduleResolution": "node",
+      "noFallthroughCasesInSwitch": true,
+      "noImplicitAny": true,
+      "noImplicitReturns": true,
+      "noImplicitThis": true,
+      "outDir": "lib",
+      "strictNullChecks": true,
+      "target": "es5",
+      "allowJs": true,
+      "jsx":"preserve",
+      "esModuleInterop": true
+    //   "typeRoots": ["typings/modules"]
+    },
+    "exclude": [
+      ".git",
+      "node_modules",
+      "dev"
+    ],
+    "include": [
+        "src"
+    ]
+  }
+  
